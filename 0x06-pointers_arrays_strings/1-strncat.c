@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- * concating two strings
+ * *_strncat -concating two strings
+ * @dest - pointer 1
+ * @src - pointer 2
+ * @n - int
  * Return: *dest
  */
 

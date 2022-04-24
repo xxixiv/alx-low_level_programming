@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * *
- * concating strings
+ *
+ * *_strcat - concating strings
+ * @dest - pointer 1
+ * @src - pointer 2
  * Return: return value of dest
  */
 
