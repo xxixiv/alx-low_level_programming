@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* _strstr - function locate
-* @haystack: pointer to char
-* @needle: pointer to char
+* _strstr -  locate functions
+* @haystack: pointer 1
+* @needle: pointer 2
 * Return: 0
 */
 
@@ -25,7 +25,7 @@ char *_strstr(char *haystack, char *needle)
 			return (result);
 		}
 		needle = a;
-		result++; 
+		result++;
 		haystack = result;
 	}
 	return (0);
