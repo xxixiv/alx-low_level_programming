@@ -2,10 +2,9 @@
 
 /**
  * read_textfile - reads the file and prints letters
- * @filename: the name of the file
- * @letters: num of letters printed
- *
- * Return: num of letters printed
+ * @filename - the name of the file
+ * @letters - num of letters printed
+ * Return -  num of letters printed
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -26,6 +25,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	rd = read(f, a, letters);
+
 	wr = write(STDOUT_FILENO, a, rd);
 
 	close(f);
