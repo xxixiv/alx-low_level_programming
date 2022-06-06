@@ -2,9 +2,8 @@
 
 /**
  * append_text_to_file - appends text to a file
- * @filename - files name
- * @text_content - content of the file
- *
+ * @filename: files name
+ * @text_content: content of the file
  * Return: 1 if successful, -1 for failure
  */
 

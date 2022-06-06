@@ -2,9 +2,9 @@
 
 /**
  * read_textfile - reads the file and prints letters
- * @filename - the name of the file
- * @letters - num of letters printed
- * Return -  num of letters printed
+ * @filename: the name of the file
+ * @letters: num of letters printed
+ * Return:  num of letters printed
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
